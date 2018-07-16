@@ -2,8 +2,6 @@
 export EDITOR=vim
 
 # 自訂alias
-export EDITOR=vim
-alias py='python'
 alias cls='clear'
 alias ge='gedit'
 alias wea='curl http://wttr.in/taipei?lang=zh -s | head -n 17'
@@ -11,6 +9,7 @@ alias rm='sudo rm'
 alias lan='sudo pon dsl-provider'
 alias umountbackup='umount /media/howpwn/Backup'
 alias apt-get="sudo apt-get"
+alias vimPlug='vim +PluginInstall +qall'
 alias va='vagrant'
 
 # substitute tool
@@ -18,7 +17,7 @@ alias dpkg="sudo gdebi"
 
 # Cryptography
 alias floss='~/Tools/floss/floss'
-alias ezcrypt="python2 ~/Tools/EzCryptSolver/EzSolve.py"
+alias ezcrypt='python ~/Tools/EzCryptSolver/EzSolve.py'
 alias pkcrack='~/Tools/PKcrack/pkcrack'
 
 # NetHacking
@@ -27,6 +26,7 @@ alias nmap="sudo nmap"
 
 # python2.7
 alias python=python2
+alias py='python'
 alias pip='sudo -H pip2'
 
 # Pwn
