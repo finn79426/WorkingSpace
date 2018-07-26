@@ -17,7 +17,7 @@ alias dpkg="sudo gdebi"
 
 # Cryptography
 alias floss='~/Tools/floss/floss'
-alias ezcrypt='python ~/Tools/EzCryptSolver/EzSolve.py'
+alias solve='python ~/Tools/EzCryptSolver/EzSolve.py'
 alias pkcrack='~/Tools/PKcrack/pkcrack'
 
 # NetHacking
@@ -31,7 +31,10 @@ alias pip='sudo -H pip2'
 
 # Pwn
 alias gdb='gdb -q'
+alias objdump='objdump -M intel'
 alias cs='checksec'
+alias strace="strace -ixv"
+alias ltrace="ltrace -iC"
 alias cyclic_find='~/selfmade_tools/cyclic_find.py'
 alias cx='chmod +x'
 
