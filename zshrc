@@ -12,6 +12,7 @@ alias apt-get="sudo apt-get"
 alias vimPlug='vim +PluginInstall +qall'
 alias va='vagrant'
 alias npm='sudo npm'
+alias docker='sudo docker'
 
 # substitute tool
 alias dpkg="sudo gdebi"
@@ -40,6 +41,7 @@ alias cyclic_find='~/selfmade_tools/cyclic_find.py'
 alias cx='chmod +x'
 
 # web security
+alias burp="cd /DATA/Burp/ ; ./burp.sh"
 alias githacker='sudo python ~/Tools/GitHacker/GitHacker.py'
 alias magichash='echo "Password147186970!"'
 alias easywebsolve="ruby ~/Tools/EasyWebSolver/EasySolver.rb"
