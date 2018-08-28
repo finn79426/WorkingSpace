@@ -68,7 +68,7 @@ eval `dircolors ~/.dir_colors/dircolors`
 export ZSH=$HOME/.oh-my-zsh
 
 # plugin enable
-plugins=(git zsh_reload sudo cp encode64 autojump ubuntu zsh-syntax-highlighting)
+plugins=(git zsh_reload sudo cp encode64 autojump ubuntu zsh-syntax-highlighting docker)
 
 # autojump
 [[ -s /home/howpwn/.autojump/etc/profile.d/autojump.sh  ]] && source /home/howpwn/.autojump/etc/profile.d/autojump.sh
