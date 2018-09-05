@@ -13,14 +13,15 @@ alias vimPlug='vim +PluginInstall +qall'
 alias va='vagrant'
 alias npm='sudo npm'
 alias docker='sudo docker'
+alias docker-compose='sudo docker-compose'
 
 # substitute tool
 alias dpkg="sudo gdebi"
 
 # Cryptography
-alias floss='~/Tools/floss/floss'
-alias solve='python ~/Tools/EzCryptSolver/EzSolve.py'
-alias pkcrack='~/Tools/PKcrack/pkcrack'
+alias floss='~/.Tools/floss/floss'
+alias solve='python ~/.Tools/EzCryptSolver/EzSolve.py'
+alias pkcrack='~/.Tools/PKcrack/pkcrack'
 
 # NetHacking
 alias nc='ncat'
@@ -37,17 +38,17 @@ alias objdump='objdump -M intel'
 alias cs='checksec'
 alias strace="strace -ixv"
 alias ltrace="ltrace -iC"
-alias cyclic_find='~/selfmade_tools/cyclic_find.py'
+#alias cyclic_find='~/selfmade_tools/cyclic_find.py'
 alias cx='chmod +x'
 
 # web security
 alias burp="cd /DATA/Burp/ ; ./burp.sh"
-alias githacker='sudo python ~/Tools/GitHacker/GitHacker.py'
+alias githacker='sudo python ~/.Tools/GitHacker/GitHacker.py'
 alias magichash='echo "Password147186970!"'
-alias easywebsolve="ruby ~/Tools/EasyWebSolver/EasySolver.rb"
-alias sqlmap="python ~/Tools/sqlmap/sqlmap.py"
-alias tplmap="python ~/Tools/tplmap/tqlmap.py"
-alias commix="python ~/Tools/commix/commix.py"
+alias easywebsolve="ruby ~/.Tools/EasyWebSolver/EasySolver.rb"
+alias sqlmap="python ~/.Tools/sqlmap/sqlmap.py"
+alias tplmap="python ~/.Tools/tplmap/tqlmap.py"
+alias commix="python ~/.Tools/commix/commix.py"
 
 # LogBook
 function lb() {
@@ -71,7 +72,7 @@ export ZSH=$HOME/.oh-my-zsh
 plugins=(git zsh_reload sudo cp encode64 autojump ubuntu zsh-syntax-highlighting docker)
 
 # autojump
-[[ -s /home/howpwn/.autojump/etc/profile.d/autojump.sh  ]] && source /home/howpwn/.autojump/etc/profile.d/autojump.sh
+[[ -s ~/.autojump/etc/profile.d/autojump.sh  ]] && source ~/.autojump/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
 
 # ignore it

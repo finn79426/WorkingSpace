@@ -9,7 +9,9 @@ echo 'zshrc Done!\n'
 cp ~/.gdbinit $(dirname "$0")/gdbinit
 echo 'gdbinit Done!\n'
 
-crontab -l > "crontab"
+crontab -l > $(dirname "$0")/crontab
 echo 'crontab Done!\n'
+
+cp -r ~/.CodeTemplates/ $(dirname "$0")/CodeTemplates
 
 echo 'ALL Done!\nSave to :' $(dirname "$0")

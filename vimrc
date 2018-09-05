@@ -150,6 +150,6 @@ let g:syntastic_check_on_wq=1		" 開啟 文件儲存後檢查
 
 " 模板設定
 " 定義模板所在資料夾
-let g:templates_directory = '~/Desktop/Linux_config/templates'
+let g:templates_directory = '~/.CodeTemplates/'
 " 定義作者Email
 let g:email = 'finn79426@gmail.com'
