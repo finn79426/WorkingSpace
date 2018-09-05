@@ -6,8 +6,8 @@ alias cls='clear'
 alias ge='gedit'
 alias wea='curl http://wttr.in/taipei?lang=zh -s | head -n 17'
 alias rm='sudo rm'
-alias lan='sudo pon dsl-provider'
-alias umountbackup='umount /media/howpwn/Backup'
+# alias lan='sudo pon dsl-provider'
+# alias umountbackup='umount /media/howpwn/Backup'
 alias apt-get="sudo apt-get"
 alias vimPlug='vim +PluginInstall +qall'
 alias va='vagrant'
@@ -42,7 +42,7 @@ alias ltrace="ltrace -iC"
 alias cx='chmod +x'
 
 # web security
-alias burp="cd /DATA/Burp/ ; ./burp.sh"
+alias burp="cd /DATA/Burp/ ; ./burp.sh"		# host only!!!
 alias githacker='sudo python ~/.Tools/GitHacker/GitHacker.py'
 alias magichash='echo "Password147186970!"'
 alias easywebsolve="ruby ~/.Tools/EasyWebSolver/EasySolver.rb"
