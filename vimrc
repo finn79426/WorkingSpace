@@ -11,12 +11,12 @@ Plugin 'L9'									" Vim script library
 Plugin 'scrooloose/nerdtree'				" 樹狀目錄	(F2)
 Plugin 'scrooloose/nerdcommenter'			" 快速註釋	(F4)
 Plugin 'Chiel92/vim-autoformat'				" 自動格式化(F8)
+Plugin 'tell-k/vim-autopep8'				" Python PEP8 格式化支援 (F8)
 Plugin 'xuhdev/SingleCompile'				" 編譯程式	(F5), 執行程式 (F6), Run script (F5)
 
 Plugin 'Yggdroot/indentLine'				" 縮進顯示
 Plugin 'jiangmiao/auto-pairs'				" 符號自動成對
 Plugin 'tpope/vim-surround'					" 符號輔助神器
-Plugin 'tell-k/vim-autopep8'				" Python PEP8 格式化支援
 Plugin 'scrooloose/syntastic'				" 語法檢查
 Plugin 'othree/vim-autocomplpop'			" 代碼補齊
 Plugin 'sheerun/vim-polyglot'				" 各種語言的語法高亮
@@ -134,8 +134,10 @@ map <F4> <leader>ci <CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " vim-autoformat
-" au BufWrite * :Autoformat " 保存時自動格式化
 noremap <F8> :Autoformat<CR>
+" vim-autopep8 (python only)
+autocmd FileType python noremap <buffer> <F8> :call Autopep8()<CR>
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
